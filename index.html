@@ -293,7 +293,7 @@
 							día tan especial y por acompañarnos en este hermoso viaje! </p>
 					</div>
 				</div>
-				<div class="row row-bottom-padded-md">
+				<!-- <div class="row row-bottom-padded-md">
 					<div class="col-md-12">
 						<ul id="fh5co-gallery-list">
 
@@ -330,7 +330,48 @@
 
 						</ul>
 					</div>
+				</div> -->
+				<div class="row row-bottom-padded-md">
+					<div class="col-md-12">
+						<ul id="fh5co-gallery-list">
+				
+							<!-- Imagen 1 -->
+							<li class="one-third animate-box" data-animate-effect="fadeIn"
+								style="background-image: url(images/gallery-1.jpg);">
+								<a href="images/gallery-1.jpg" data-lightbox="gallery" data-title="Banco Ganadero">
+									<div class="case-studies-summary">
+										<span></span>
+										<h2>Banco Ganadero</h2>
+									</div>
+								</a>
+							</li>
+				
+							<!-- Imagen 2 -->
+							<li class="one-third animate-box" data-animate-effect="fadeIn"
+								style="background-image: url(images/gallery-2.jpg);">
+								<a href="images/gallery-2.jpg" data-lightbox="gallery" data-title="Celebraciones multicenter">
+									<div class="case-studies-summary">
+										<span></span>
+										<h2>Celebraciones multicenter</h2>
+									</div>
+								</a>
+							</li>
+				
+							<!-- Imagen 3 -->
+							<li class="one-third animate-box" data-animate-effect="fadeIn"
+								style="background-image: url(images/gallery-3.jpg);">
+								<a href="images/gallery-3.jpg" data-lightbox="gallery" data-title="Novios">
+									<div class="case-studies-summary">
+										<span></span>
+										<h2>Novios</h2>
+									</div>
+								</a>
+							</li>
+				
+						</ul>
+					</div>
 				</div>
+				
 			</div>
 		</div>
 
@@ -440,7 +481,7 @@
 				<div class="row animate-box">
 					<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
 						<h2>Gracias por tu atencion!!</h2>
-						<p>La pasaremos super duper, comprame algo bonito, pero mas importante es tu presencia te espero
+						<p>Tu presencia nos alegrara aun mas el día más importante de nuestras vidas, estamos seguros que juntos pasaremos una velada única, no faltes contamos contigo
 							!!</p>
 					</div>
 				</div>
@@ -472,6 +513,10 @@
 	<div class="gototop js-top">
 		<a href="#" class="js-gotop"><i class="icon-arrow-up"></i></a>
 	</div>
+	<!-- Lightbox CSS -->
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.min.css" rel="stylesheet">
+	<!-- Lightbox JS -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox.min.js"></script>
 
 	<!-- jQuery -->
 	<script src="js/jquery.min.js"></script>
@@ -520,6 +565,15 @@
 			enableUtc: false
 		});
 	</script>
+	<script>
+		lightbox.option({
+			'resizeDuration': 200,
+			'wrapAround': true,
+			'fadeDuration': 300,
+			'imageFadeDuration': 300
+		});
+	</script>
+	
 
 </body>
 
